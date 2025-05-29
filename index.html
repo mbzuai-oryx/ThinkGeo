@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="ThinkGeo">
+  <meta name="keywords" content="Agentic AI, Remote Sensing RS">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ThinkGeo: Evaluating Tool-Augmented Agents for Remote Sensing Tasks
+</title>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Render ThinkGeo</title>
+    <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+  </head>
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/logo.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <img src="static\images\logo.png" alt="ThinkGeo_logo" style="width: 300px; height: auto;">
+
+          <h1 class="title is-1 publication-title">ThinkGeo: Evaluating Tool-Augmented Agents for Remote Sensing Tasks</h1>
+          <div class="is-size-5 publication-authors">
+            <p>
+              Akashah Shabbir<sup style="color:#3399FF;">1*</sup>,
+              Muhammad Akhtar Munir<sup style="color:#3399FF;">1*</sup>,
+              Akshay Dudhane<sup style="color:#3399FF;">1*</sup>,
+              Muhammad Umer Sheikh<sup style="color:#3399FF;">1</sup>,
+              Muhammad Haris Khan<sup style="color:#3399FF;">1</sup>, 
+              Paolo Fraccaro<sup style="color:#4CB5AE;">2</sup>, 
+              Juan Bernabe Moreno<sup style="color:#4CB5AE;">2</sup>,
+              Fahad S. Khan<sup style="color:#FFA280;">1,3</sup>,
+              Salman Khan<sup style="color:#FF66B3;">1,4</sup>,
+            </p>
+            <p>
+              <sup style="color:#3399FF;">1</sup>Mohamed bin Zayed University of Artificial Intelligence,
+              <sup style="color:#4CB5AE;">2</sup>IBM Research,
+              <sup style="color:#FFA280;">3</sup>Linköping University
+              <sup style="color:#FF66B3;">4</sup>Australian National University,
+              
+            </p>
+          </div>
+          
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2501.13925"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2501.13925"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/mbzuai-oryx/GeoPixel"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="columns is-centered">
+  <div class="column is-three-quarters">
+    <div class="content">
+      <p style="text-align: justify;">
+        ThinkGeo is a specialized benchmark designed to evaluate how language model agents handle complex remote sensing tasks through structured tool use and step-by-step reasoning. It features human-curated queries grounded in satellite and aerial imagery across diverse real-world domains such as disaster response, urban planning, and environmental monitoring. Using a ReAct-style interaction loop, ThinkGeo tests both open and closed-source LLMs on over 400 multi-step agentic tasks. The benchmark measures not only final answer correctness but also the accuracy and consistency of tool usage throughout the process. By focusing on spatially grounded, domain-specific challenges, ThinkGeo fills a critical gap left by general-purpose evaluation frameworks.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- First image -->
+<div class="columns is-centered">
+  <div class="column is-six-fifths">
+    <img src="./static/images/data_stats.png" alt="Replacement Image" style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+  </div>
+</div>
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <!-- News -->
+        <div class="columns is-centered">
+            <div class="column is-full has-text-centered">
+                <h2 class="title is-3" style="display: inline-flex; align-items: center; justify-content: center;">
+                    <span class="icon" style="margin-right: 8px;">
+                        <img src="static/images/bell.png" alt="News Icon" style="width: 24px; height: 24px;">
+                    </span>
+                    News
+                </h2>
+                <p style="font-size: 18px;">
+                    <strong>[May-29-2025]</strong>: 📂 ThinkGeo benchmark is released on HuggingFace <a href="https://huggingface.co/datasets/MBZUAI/ThinkGeo">HuggingFace</a>
+                    <br>
+                    <strong>[May-29-2025]</strong>: 📜 Technical Report of ThinkGeo paper is released <a href = "https://arxiv.org/abs/2501.13925">arxiv link</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section" style="background-color:#efeff081">
+  <div class="container is-max-desktop">
+    <!-- Contributions -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-six-fifths">
+        <h2 class="title is-3">🏆 Contributions</h2>
+        <div class="content has-text-justified">
+          <ol type="1">
+            <li>
+              A dataset comprising 436 remote sensing tasks, linked with medium to high-resolution earth observation imagery across domains like urban planning, disaster response, aviation, and environmental monitoring.
+            </li>
+            <br>
+            <li>
+              A set of 14 executable tools simulates real-world RS workflows, including modules for perception, computation, logic, and visual annotation.
+            </li>
+            <br>
+            <li>
+              Two evaluation modes—step-by-step and end-to-end—use with detailed metrics to assess instruction adherence, argument structure, reasoning steps, and final accuracy.
+            </li>
+            <li>
+              Benchmarking advanced LLMs (GPT-4o, Claude-3, Qwen-2.5, LLaMA-3) reveals ongoing challenges in multimodal reasoning and tool integration.
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Dataset Examples -->
+<section class="section">
+  <div class="columns is-centered has-text-centered">
+      <div class="column is-six-fifths">
+          <h2 class="title is-3"><img src="static/images/logo.png" alt="ThinkGeo" width="60"
+                  style="vertical-align: bottom;"> ThinkGeo: Dataset Examples</h2>
+      </div>
+  </div>
+
+  <style>
+  .slide-img {
+    max-height: 1000px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+</style>
+
+<section class="section">
+  <div class="container has-text-centered">
+    <div class="slider-wrapper" style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+
+      <!-- Left arrow outside -->
+      <button id="prevBtn" style="background: none; border: none; font-size: 2rem; cursor: pointer;">
+        &#10094;
+      </button>
+
+      <!-- Slider -->
+      <div class="slider" style="max-width: 800px; overflow: hidden;">
+        <div id="imageSlides" style="display: flex; transition: transform 1s ease-in-out;">
+          <img src="static/images/sample1.png" class="slide-img" alt="Image 1">
+          <img src="static/images/sample2.png" class="slide-img" alt="Image 2">
+          <img src="static/images/sample3.png" class="slide-img" alt="Image 3">
+          <img src="static/images/sample4.png" class="slide-img" alt="Image 4">
+          <img src="static/images/sample1.png" class="slide-img" alt="Clone of Image 1">
+        </div>
+      </div>
+
+      <!-- Right arrow outside -->
+      <button id="nextBtn" style="background: none; border: none; font-size: 2rem; cursor: pointer;">
+        &#10095;
+      </button>
+
+    </div>
+  </div>
+</section>
+
+
+  <div class="container is-max-desktop">
+      <div class="columns is-centered">
+          <div class="column is-full-width">
+              <div class="content has-text-justified">
+                  <p>
+                    The figure presents a set of representative samples from the ThinkGeo benchmark, a comprehensive evaluation framework for geospatial tasks. Each row in the table showcases a complete interaction flow, beginning with a user query that is grounded in remote sensing (RS) imagery. Following the user query, each example demonstrates a ReAct-based execution chain—an approach that integrates reasoning and action through a combination of tool calls and logical steps. These execution chains involve the dynamic selection and use of various tools, depending on the demands of the specific query.
+                  </p>
+              </div>
+          </div>
+      </div>
+      <div class="columns is-centered has-text-centered">
+          <div class="column is-six-fifths"
+              style="display: flex; align-items: flex-start; justify-content: center;">
+              <figure style="text-align: center;">
+                  <img id="teaser" width="100%" src="static/images/data_samples.png">
+              </figure>
+          </div>
+      </div>
+      <div class="columns is-centered">
+          <div class="column is-full-width">
+              <div class="content has-text-justified">
+                  <p>
+                    The data samples span a wide range of application domains, underscoring the benchmark's diversity. These domains include transportation analysis, urban planning, disaster assessment and change analysis, recreational infrastructure, and environmental monitoring, highlighting multi-tool reasoning and spatial task complexity.
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Dataset Examples -->
+
+<!-- Results -->
+<section class="section">
+  <div class="columns is-centered has-text-centered">
+      <div class="column is-six-fifths">
+          <h2 class="title is-3"> Results </h2>
+      </div>
+  </div>
+  <div class="container is-max-desktop">
+      <div class="columns is-centered">
+          <div class="column is-full-width">
+              <div class="content has-text-justified">
+                  <p>
+                    Evaluation results across models on the ThinkGeo benchmark are summarized in the table. The left side presents step-by-step execution metrics, while the right side reports end-to-end performance. Metrics include tool-type accuracy—categorized by Perception (P), Operation (O), and Logic (L)—as well as final answer accuracy (Ans.) and answer accuracy with image grounding (Ans_I).
+                  </p>
+              </div>
+          </div>
+      </div>
+      <div class="columns is-centered has-text-centered">
+          <div class="column is-six-fifths"
+              style="display: flex; align-items: flex-start; justify-content: center;">
+              <figure style="text-align: center;">
+                  <img id="teaser" width="100%" src="static/images/res.png">
+              </figure>
+          </div>
+      </div>
+      
+  </div>
+</section>
+<!-- Results -->
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
+        @article{shabbir2025ThinkGeo,
+          title={ThinkGeo: Evaluating Tool-Augmented Agents for Remote Sensing Tasks}, 
+          author={Akashah Shabbir, Muhammad Akhtar Munir, Akshay Dudhane, Muhammad Umer Sheikh, Muhammad Haris Khan, Paolo Fraccaro, Juan Bernabe Moreno, Fahad Shahbaz Khan and Salman Khan},
+          journal={ArXiv},
+          year={2025},
+          url={https://arxiv.org/abs}
+        } 
+</code></pre>
+  </div>
+</section>
+<section class="section" id="Acknowledgement">
+  <div class="container is-max-desktop content">
+      <h2 class="title">Acknowledgement</h2>
+      <p>
+          This website is adapted from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>,
+          licensed under
+          a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+              Commons Attribution-ShareAlike 4.0 International License</a>.
+      </p>
+  </div>
+</section>
+
+
+  
+  <div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin: 20px 0;">
+    <a href="https://www.ival-mbzuai.com" target="_blank">
+      <img src="static/images/IVAL_logo.png" style="height: 100px; object-fit: contain;" alt="IVAL Logo">
+    </a>
+    <a href="https://github.com/mbzuai-oryx" target="_blank">
+      <img src="static/images/Oryx_logo.png" style="height: 100px; object-fit: contain;" alt="Oryx Logo">
+    </a>
+    <a href="https://mbzuai.ac.ae" target="_blank">
+      <img src="static/images/MBZUAI_logo.png" style="height: 100px; object-fit: contain;" alt="MBZUAI Logo">
+    </a>
+  </div>
+
+<script>
+  const slides = document.getElementById("imageSlides");
+  const images = slides.querySelectorAll(".slide-img");
+  const totalImages = images.length;
+  let index = 0;
+  let autoSlideInterval;
+
+  function updateSlideWidth() {
+    const width = slides.parentElement.clientWidth;
+    slides.style.width = `${width * totalImages}px`;
+    images.forEach(img => img.style.width = `${width}px`);
+  }
+
+  function goToSlide(i) {
+    const width = slides.parentElement.clientWidth;
+    index = i;
+    slides.style.transition = "transform 1s ease-in-out";
+    slides.style.transform = `translateX(-${width * index}px)`;
+
+    // Loop fix if on last cloned slide
+    if (index === totalImages - 1) {
+      setTimeout(() => {
+        slides.style.transition = "none";
+        slides.style.transform = `translateX(0px)`;
+        index = 0;
+      }, 1000);
+    }
+  }
+
+  function slideNext() {
+    goToSlide(index + 1);
+  }
+
+  function slidePrev() {
+    if (index === 0) {
+      index = totalImages - 2;
+      slides.style.transition = "none";
+      slides.style.transform = `translateX(-${index * slides.parentElement.clientWidth}px)`;
+      setTimeout(() => goToSlide(index - 1), 20);
+    } else {
+      goToSlide(index - 1);
+    }
+  }
+
+  function startAutoSlide() {
+    autoSlideInterval = setInterval(slideNext, 5000);
+  }
+
+  function stopAutoSlide() {
+    clearInterval(autoSlideInterval);
+  }
+
+  window.addEventListener('load', () => {
+    updateSlideWidth();
+    startAutoSlide();
+  });
+
+  window.addEventListener('resize', updateSlideWidth);
+
+  document.getElementById("nextBtn").addEventListener("click", () => {
+    stopAutoSlide();
+    slideNext();
+    startAutoSlide();
+  });
+
+  document.getElementById("prevBtn").addEventListener("click", () => {
+    stopAutoSlide();
+    slidePrev();
+    startAutoSlide();
+  });
+</script>
+
+
+
+</body>
+</html>
+
+
