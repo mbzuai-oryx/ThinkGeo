@@ -65,7 +65,7 @@ git clone https://github.com/anonneurips8/ThinkGeo.git
 cd ThinkGeo
 ```
 
-2. Download the dataset from [Hugging face ThinkGeo](https://huggingface.co/datasets/anonneurips8/ThinkGeo).
+2. Download the dataset from [Hugging face ThinkGeo](https://huggingface.co/datasets/MBZUAI/ThinkGeo).
 ```shell
 mkdir ./opencompass/data
 ```
