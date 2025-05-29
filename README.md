@@ -61,7 +61,7 @@ Evaluation results across models on the ThinkGeo benchmark are summarized in the
 ### Prepare ThinkGeo Dataset
 1. Clone this repo.
 ```shell
-git clone https://github.com/MBZUAI/ThinkGeo.git
+git clone https://github.com/mbzuai-oryx/ThinkGeo.git
 cd ThinkGeo
 ```
 
