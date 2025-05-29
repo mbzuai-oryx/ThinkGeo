@@ -2,16 +2,23 @@
 
 ![](https://i.imgur.com/waxVImv.png)
 
+<div  align="center" style="margin-top:10px;"> 
+  
 [Akashah Shabbir](https://github.com/AkashahS)\*, [Muhammad Akhtar Munir]()\*, [Akshay Dudhane]()\*, [Muhammad Umer Sheikh](), [Muhammad Haris Khan](), [Paolo Fraccaro](), [Juan Bernabe Moreno](), [Fahad Shahbaz Khan]() and [Salman Khan]()
 
-**Mohamed bin Zayed University of Artificial Intelligence, Linköping University, Australian National University**
+**Mohamed bin Zayed University of Artificial Intelligence, IBM Research, Linköping University, Australian National University**
 
 [![Website](https://img.shields.io/badge/Project-Website-87CEEB)](https://mbzuai-oryx.github.io/ThinkGeo/)
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-Model-F9D371)](https://huggingface.co/datasets/MBZUAI/ThinkGeo)
 [![GitHub stars](https://img.shields.io/github/stars/mbzuai-oryx/ThinkGeo?color=FFF359&style=flat)](https://github.com/mbzuai-oryx/ThinkGeo/stargazers)
-  [![GitHub license](https://img.shields.io/github/license/mbzuai-oryx/ThinkGeo?color=FF8080)](https://github.com/mbzuai-oryx/ThinkGeo/blob/main/LICENSE)
-  
+[![GitHub license](https://img.shields.io/github/license/mbzuai-oryx/ThinkGeo?color=FF8080)](https://github.com/mbzuai-oryx/ThinkGeo/blob/main/LICENSE)
+
+<em> <sup> *Equal Contribution  </sup> </em>
+<br>
+
+</div>
+
 ---
 
 ## 📢  Latest Updates
