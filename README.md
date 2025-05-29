@@ -11,7 +11,7 @@
 [![Website](https://img.shields.io/badge/Project-Website-87CEEB)](https://mbzuai-oryx.github.io/ThinkGeo/)
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-Model-F9D371)](https://huggingface.co/datasets/MBZUAI/ThinkGeo)
-[![GitHub stars](https://img.shields.io/github/stars/mbzuai-oryx/ThinkGeo?color=FFF359&style=flat)](https://github.com/mbzuai-oryx/ThinkGeo/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/mbzuai-oryx/ThinkGeo?style=flat&color=fff359)](https://github.com/mbzuai-oryx/ThinkGeo/stargazers)
 [![GitHub license](https://img.shields.io/github/license/mbzuai-oryx/ThinkGeo?color=FF8080)](https://github.com/mbzuai-oryx/ThinkGeo/blob/main/LICENSE)
 
 <em> <sup> *Equal Contribution  </sup> </em>
