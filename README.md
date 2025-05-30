@@ -24,7 +24,7 @@
 ## 📢  Latest Updates
 
 - **May-29-2025**: 📂 ThinkGeo benchmark is released on **_HuggingFace_** [MBZUAI/ThinkGeo](https://huggingface.co/datasets/MBZUAI/ThinkGeo)
-- **May-29-2025**: 📜 Technical Report of ThinkGeo paper is released [arxiv link](https://arxiv.org/abs).
+- **May-29-2025**: 📜 Technical Report of ThinkGeo paper is released [arxiv link](https://arxiv.org/abs/2505.23752).
 
 ## ThinkGeo Overview
 
@@ -261,11 +261,13 @@ python run.py configs/eval_ThinkGeo_bench.py -p llmit -q auto --max-num-workers 
 ## 📜 Citation 
 
 ```bibtex
-@article{shabbir2025ThinkGeo,
-  title={ThinkGeo: Evaluating Tool-Augmented Agents for Remote Sensing Tasks}, 
-  author={Akashah Shabbir, Muhammad Akhtar Munir, Akshay Dudhane, Muhammad Umer Sheikh, Muhammad Haris Khan, Paolo Fraccaro, Juan Bernabe Moreno, Fahad Shahbaz Khan and Salman Khan},
-  journal={ArXiv},
-  year={2025},
-  url={https://arxiv.org/abs}
+@misc{shabbir2025thinkgeoevaluatingtoolaugmentedagents,
+      title={ThinkGeo: Evaluating Tool-Augmented Agents for Remote Sensing Tasks}, 
+      author={Akashah Shabbir and Muhammad Akhtar Munir and Akshay Dudhane and Muhammad Umer Sheikh and Muhammad Haris Khan and Paolo Fraccaro and Juan Bernabe Moreno and Fahad Shahbaz Khan and Salman Khan},
+      year={2025},
+      eprint={2505.23752},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.23752}, 
 }
 ```
