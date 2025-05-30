@@ -9,7 +9,7 @@
 **Mohamed bin Zayed University of Artificial Intelligence, IBM Research, Linköping University, Australian National University**
 
 [![Website](https://img.shields.io/badge/Project-Website-87CEEB)](https://mbzuai-oryx.github.io/ThinkGeo/)
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs)
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs//2505.23752)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-Model-F9D371)](https://huggingface.co/datasets/MBZUAI/ThinkGeo)
 [![GitHub stars](https://img.shields.io/github/stars/mbzuai-oryx/ThinkGeo?style=flat&color=fff359)](https://github.com/mbzuai-oryx/ThinkGeo/stargazers)
 [![GitHub license](https://img.shields.io/github/license/mbzuai-oryx/ThinkGeo?color=ff8080)](https://github.com/mbzuai-oryx/ThinkGeo/blob/main/LICENSE)
