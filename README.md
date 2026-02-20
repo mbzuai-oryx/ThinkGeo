@@ -4,7 +4,7 @@
 
 [Akashah Shabbir](https://github.com/AkashahS)\*, [Muhammad Akhtar Munir]()\*, [Akshay Dudhane]()\*, [Muhammad Umer Sheikh](), [Muhammad Haris Khan](), [Paolo Fraccaro](), [Juan Bernabe Moreno](), [Fahad Shahbaz Khan]() and [Salman Khan]()
 
-**Mohamed bin Zayed University of Artificial Intelligence, Linköping University, Australian National University**
+**Mohamed bin Zayed University of Artificial Intelligence, Linköping University, Technical University Munich, Australian National University**
 
 [![Website](https://img.shields.io/badge/Project-Website-87CEEB)](https://mbzuai-oryx.github.io/ThinkGeo/)
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2505.23752)
