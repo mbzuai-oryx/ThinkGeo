@@ -28,13 +28,13 @@
 
 ## ThinkGeo Overview
 
-ThinkGeo is a specialized benchmark designed to evaluate how language model agents handle complex remote sensing tasks through structured tool use and step-by-step reasoning. It features human-curated queries grounded in satellite and aerial imagery across diverse real-world domains such as disaster response, urban planning, and environmental monitoring. Queries are grounded in satellite or aerial imagery, including both optical RGB and SAR data, and require agents to reason through a diverse toolset. Using a ReAct-style interaction loop, ThinkGeo tests both open and closed-source LLMs on 486 structured agentic tasks with 1,773 expert-verified reasoning steps. The benchmark measures not only final answer correctness but also the accuracy and consistency of tool usage throughout the process. By focusing on spatially grounded, domain-specific challenges, ThinkGeo fills a critical gap left by general-purpose evaluation frameworks.
+ThinkGeo is a specialized benchmark designed to evaluate how language model agents handle complex remote sensing tasks through structured tool use and step-by-step reasoning. It features human-curated queries grounded in satellite and aerial imagery across diverse real-world domains such as disaster response, urban planning, and environmental monitoring. Queries are grounded in satellite or aerial imagery, including both optical RGB and SAR data, and require agents to reason through a diverse toolset. Using a ReAct-style interaction loop, ThinkGeo tests both open and closed-source LLMs on 486 structured agentic tasks with 1,778 expert-verified reasoning steps. The benchmark measures not only final answer correctness but also the accuracy and consistency of tool usage throughout the process. By focusing on spatially grounded, domain-specific challenges, ThinkGeo fills a critical gap left by general-purpose evaluation frameworks.
 
 ![stats](assets/data_stats.png)
 
 ## Key Features
 
-- A dataset comprising 486 remote sensing tasks with 1,773 expert-verified reasoning steps, linked with medium to high-resolution optical RGB (with 436 tasks) and SAR (with 50 tasks) images, across domains like urban planning, disaster response, aviation, and environmental monitoring.
+- A dataset comprising 486 remote sensing tasks with 1,778 expert-verified reasoning steps, linked with medium to high-resolution optical RGB (with 436 tasks) and SAR (with 50 tasks) images, across domains like urban planning, disaster response, aviation, and environmental monitoring.
 
 - A set of 14 executable tools simulates real-world RS workflows, including modules for perception, computation, logic, and visual annotation.
 
