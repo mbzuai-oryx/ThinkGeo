@@ -54,7 +54,7 @@ Evaluation results across models on the ThinkGeo benchmark are summarized in the
 ## 📜 Citation 
 
 ```bibtex
-@misc{shabbir2025thinkgeoevaluatingtoolaugmentedagents,
+@misc{shabbir2025thinkgeo,
       title={ThinkGeo: Evaluating Tool-Augmented Agents for Remote Sensing Tasks}, 
       author={Akashah Shabbir and Muhammad Akhtar Munir and Akshay Dudhane and Muhammad Umer Sheikh and Muhammad Haris Khan and Paolo Fraccaro and Juan Bernabe Moreno and Fahad Shahbaz Khan and Salman Khan},
       year={2025},
