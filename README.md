@@ -1,4 +1,4 @@
-# ThinkGeo <img src="assets/logo.png" height="50">: Evaluating Tool-Augmented Agents for Remote Sensing Tasks [CVPR 2026 🔥]
+# ThinkGeo <img src="assets/logo.png" height="50">: Evaluating Tool-Augmented Agents for Remote Sensing Tasks [CVPR 2026 MONTI, BestPaperOral 🔥]
 
 ![](https://i.imgur.com/waxVImv.png)
 
